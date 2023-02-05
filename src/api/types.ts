@@ -53,8 +53,10 @@ export interface IPostRequest {
 
 export interface IPostResponse {
   Id: string;
-  Location: string;
   Price: string;
+  Title: string,
+  New: boolean;
+  Top: boolean;
 }
 
 export interface  IPostsResponse {
